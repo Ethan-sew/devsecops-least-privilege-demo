@@ -29,4 +29,4 @@ jobs:
       - name: Deploy Secure Infrastructure to AWS
         run: |
           echo "Security Gate Passed! Deploying to AWS..."
-          aws s3 mb s3://devsecops-bucket-demo-123456789  # Remember to make this name unique!
+          aws s3 mb s3://devsecops-bucket-demo-SoftwareSecurityDEMO  # Remember to make this name unique!
