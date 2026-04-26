@@ -1,0 +1,6 @@
+{
+  "RoleName": "WAF_Service_Role",
+  "Effect": "Allow",
+  "Action": "*", 
+  "Resource": "arn:aws:s3:::customer-data-buckets/*"
+}
